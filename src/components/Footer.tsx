@@ -1,15 +1,14 @@
 import { Instagram, Mail, Heart } from 'lucide-react';
-
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <footer className="bg-card border-t border-border/50">
+  return <footer className="bg-card border-t border-border/50">
       <div className="container-samba">
         {/* Main Footer Content */}
         <div className="py-16">
@@ -26,18 +25,10 @@ const Footer = () => {
               
               {/* Social Links */}
               <div className="flex space-x-4">
-                <a 
-                  href="https://instagram.com/sambabreu"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
-                >
+                <a href="https://instagram.com/sambabreu" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a 
-                  href="mailto:contato@sambabrechó.com.br"
-                  className="w-10 h-10 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
-                >
+                <a href="mailto:contato@sambabrechó.com.br" className="w-10 h-10 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
@@ -50,42 +41,25 @@ const Footer = () => {
               </h4>
               <ul className="space-y-3">
                 <li>
-                  <button 
-                    onClick={() => scrollToSection('inicio')}
-                    className="font-poppins text-muted-foreground hover:text-primary transition-colors duration-300"
-                  >
+                  <button onClick={() => scrollToSection('inicio')} className="font-poppins text-muted-foreground hover:text-primary transition-colors duration-300">
                     Início
                   </button>
                 </li>
                 <li>
-                  <button 
-                    onClick={() => scrollToSection('sobre')}
-                    className="font-poppins text-muted-foreground hover:text-primary transition-colors duration-300"
-                  >
+                  <button onClick={() => scrollToSection('sobre')} className="font-poppins text-muted-foreground hover:text-primary transition-colors duration-300">
                     Sobre o SAMBA
                   </button>
                 </li>
                 <li>
-                  <button 
-                    onClick={() => scrollToSection('mulheres')}
-                    className="font-poppins text-muted-foreground hover:text-primary transition-colors duration-300"
-                  >
+                  <button onClick={() => scrollToSection('mulheres')} className="font-poppins text-muted-foreground hover:text-primary transition-colors duration-300">
                     As Fundadoras
                   </button>
                 </li>
                 <li>
-                  <button 
-                    onClick={() => scrollToSection('acervo')}
-                    className="font-poppins text-muted-foreground hover:text-primary transition-colors duration-300"
-                  >
-                    Nosso Acervo
-                  </button>
+                  
                 </li>
                 <li>
-                  <button 
-                    onClick={() => scrollToSection('contato')}
-                    className="font-poppins text-muted-foreground hover:text-primary transition-colors duration-300"
-                  >
+                  <button onClick={() => scrollToSection('contato')} className="font-poppins text-muted-foreground hover:text-primary transition-colors duration-300">
                     Contato
                   </button>
                 </li>
@@ -142,8 +116,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
