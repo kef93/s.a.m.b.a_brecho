@@ -8,35 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* SAMBA Brand Colors - Tons Terrosos */
+    --background: 45 25% 97%;
+    --foreground: 30 8% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 45 25% 98%;
+    --card-foreground: 30 8% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 45 25% 98%;
+    --popover-foreground: 30 8% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Caramelo */
+    --primary: 30 65% 55%;
+    --primary-foreground: 45 25% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Areia clara */
+    --secondary: 45 25% 90%;
+    --secondary-foreground: 30 8% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted: Tons neutros */
+    --muted: 45 15% 92%;
+    --muted-foreground: 30 8% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Verde musgo */
+    --accent: 90 25% 35%;
+    --accent-foreground: 45 25% 98%;
+
+    /* Ferrugem para destaque */
+    --ferrugem: 15 70% 45%;
+    --ferrugem-foreground: 45 25% 98%;
+
+    /* Areia */
+    --areia: 45 25% 85%;
+    --areia-foreground: 30 8% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 45 20% 88%;
+    --input: 45 20% 88%;
+    --ring: 30 65% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+    
+    /* Custom Design Tokens */
+    --gradient-hero: linear-gradient(135deg, hsl(30 65% 55%), hsl(15 70% 45%));
+    --gradient-subtle: linear-gradient(180deg, hsl(45 25% 98%), hsl(45 25% 95%));
+    --shadow-warm: 0 10px 30px -10px hsl(30 65% 55% / 0.2);
+    --shadow-elegant: 0 20px 40px -15px hsl(30 8% 15% / 0.1);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,33 +76,46 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Dark mode com tons terrosos mais escuros */
+    --background: 30 8% 8%;
+    --foreground: 45 25% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 30 8% 12%;
+    --card-foreground: 45 25% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 30 8% 12%;
+    --popover-foreground: 45 25% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 30 65% 60%;
+    --primary-foreground: 30 8% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 30 8% 15%;
+    --secondary-foreground: 45 25% 90%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 30 8% 18%;
+    --muted-foreground: 45 15% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 90 25% 40%;
+    --accent-foreground: 45 25% 95%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --ferrugem: 15 70% 50%;
+    --ferrugem-foreground: 30 8% 8%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --areia: 45 25% 25%;
+    --areia-foreground: 45 25% 90%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 45 25% 95%;
+
+    --border: 30 8% 20%;
+    --input: 30 8% 20%;
+    --ring: 30 65% 60%;
+    
+    /* Dark mode gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(30 65% 45%), hsl(15 70% 35%));
+    --gradient-subtle: linear-gradient(180deg, hsl(30 8% 12%), hsl(30 8% 8%));
+    --shadow-warm: 0 10px 30px -10px hsl(30 65% 45% / 0.3);
+    --shadow-elegant: 0 20px 40px -15px hsl(0 0% 0% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -100,6 +133,55 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-poppins;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Typography Classes */
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Custom Button Variants */
+  .btn-samba {
+    @apply bg-gradient-to-r from-primary to-ferrugem text-primary-foreground px-8 py-4 rounded-full font-medium tracking-wide shadow-warm hover:shadow-elegant transition-all duration-300 hover:scale-105;
+  }
+  
+  .btn-samba-outline {
+    @apply border-2 border-primary text-primary px-8 py-4 rounded-full font-medium tracking-wide hover:bg-primary hover:text-primary-foreground transition-all duration-300;
+  }
+
+  /* Section utilities */
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-12;
+  }
+  
+  .container-samba {
+    @apply max-w-7xl mx-auto;
+  }
+
+  /* Card animations */
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-elegant;
+  }
+  
+  /* Text gradients */
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-ferrugem bg-clip-text text-transparent;
+  }
+  
+  /* Hero parallax */
+  .hero-bg {
+    @apply bg-gradient-to-br from-primary/20 via-areia to-accent/20 relative overflow-hidden;
   }
 }
