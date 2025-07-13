@@ -80,6 +80,10 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			boxShadow: {
+				'warm': '0 10px 30px -10px hsl(30 65% 55% / 0.2)',
+				'elegant': '0 20px 40px -15px hsl(30 8% 15% / 0.1)',
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {

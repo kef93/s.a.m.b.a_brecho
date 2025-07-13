@@ -154,7 +154,12 @@ All colors MUST be HSL.
 
   /* Custom Button Variants */
   .btn-samba {
-    @apply bg-gradient-to-r from-primary to-ferrugem text-primary-foreground px-8 py-4 rounded-full font-medium tracking-wide shadow-warm hover:shadow-elegant transition-all duration-300 hover:scale-105;
+    @apply bg-gradient-to-r from-primary to-ferrugem text-primary-foreground px-8 py-4 rounded-full font-medium tracking-wide transition-all duration-300 hover:scale-105;
+    box-shadow: 0 10px 30px -10px hsl(30 65% 55% / 0.2);
+  }
+  
+  .btn-samba:hover {
+    box-shadow: 0 20px 40px -15px hsl(30 8% 15% / 0.1);
   }
   
   .btn-samba-outline {
@@ -172,7 +177,11 @@ All colors MUST be HSL.
 
   /* Card animations */
   .card-hover {
-    @apply transition-all duration-300 hover:scale-105 hover:shadow-elegant;
+    @apply transition-all duration-300 hover:scale-105;
+  }
+  
+  .card-hover:hover {
+    box-shadow: 0 20px 40px -15px hsl(30 8% 15% / 0.1);
   }
   
   /* Text gradients */
