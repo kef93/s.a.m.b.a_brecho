@@ -44,9 +44,7 @@ const Header = () => {
             <button onClick={() => scrollToSection('contato')} className="text-foreground hover:text-primary transition-colors duration-300">
               Contato
             </button>
-            <button onClick={() => scrollToSection('acervo')} className="btn-samba">
-              Ver peças
-            </button>
+            
           </div>
 
           {/* Mobile Menu Button */}
