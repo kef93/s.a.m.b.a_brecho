@@ -18,8 +18,8 @@ All colors MUST be HSL.
     --popover: 45 25% 98%;
     --popover-foreground: 30 8% 15%;
 
-    /* Primary: Caramelo */
-    --primary: 30 65% 55%;
+    /* Primary: Verde oliva médio */
+    --primary: 75 35% 45%;
     --primary-foreground: 45 25% 98%;
 
     /* Secondary: Areia clara */
@@ -30,13 +30,13 @@ All colors MUST be HSL.
     --muted: 45 15% 92%;
     --muted-foreground: 30 8% 45%;
 
-    /* Accent: Verde musgo */
-    --accent: 90 25% 35%;
+    /* Accent: Verde oliva escuro */
+    --accent: 75 40% 30%;
     --accent-foreground: 45 25% 98%;
 
-    /* Ferrugem para destaque */
-    --ferrugem: 15 70% 45%;
-    --ferrugem-foreground: 45 25% 98%;
+    /* Verde oliva claro para destaque */
+    --ferrugem: 80 30% 60%;
+    --ferrugem-foreground: 30 8% 15%;
 
     /* Areia */
     --areia: 45 25% 85%;
@@ -47,14 +47,14 @@ All colors MUST be HSL.
 
     --border: 45 20% 88%;
     --input: 45 20% 88%;
-    --ring: 30 65% 55%;
+    --ring: 75 35% 45%;
 
     --radius: 0.75rem;
     
     /* Custom Design Tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(30 65% 55%), hsl(15 70% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(75 35% 45%), hsl(75 40% 30%));
     --gradient-subtle: linear-gradient(180deg, hsl(45 25% 98%), hsl(45 25% 95%));
-    --shadow-warm: 0 10px 30px -10px hsl(30 65% 55% / 0.2);
+    --shadow-warm: 0 10px 30px -10px hsl(75 35% 45% / 0.2);
     --shadow-elegant: 0 20px 40px -15px hsl(30 8% 15% / 0.1);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -86,7 +86,7 @@ All colors MUST be HSL.
     --popover: 30 8% 12%;
     --popover-foreground: 45 25% 95%;
 
-    --primary: 30 65% 60%;
+    --primary: 75 35% 50%;
     --primary-foreground: 30 8% 8%;
 
     --secondary: 30 8% 15%;
@@ -95,10 +95,10 @@ All colors MUST be HSL.
     --muted: 30 8% 18%;
     --muted-foreground: 45 15% 65%;
 
-    --accent: 90 25% 40%;
+    --accent: 75 40% 35%;
     --accent-foreground: 45 25% 95%;
 
-    --ferrugem: 15 70% 50%;
+    --ferrugem: 80 30% 65%;
     --ferrugem-foreground: 30 8% 8%;
 
     --areia: 45 25% 25%;
@@ -109,12 +109,12 @@ All colors MUST be HSL.
 
     --border: 30 8% 20%;
     --input: 30 8% 20%;
-    --ring: 30 65% 60%;
+    --ring: 75 35% 50%;
     
     /* Dark mode gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(30 65% 45%), hsl(15 70% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(75 35% 40%), hsl(75 40% 25%));
     --gradient-subtle: linear-gradient(180deg, hsl(30 8% 12%), hsl(30 8% 8%));
-    --shadow-warm: 0 10px 30px -10px hsl(30 65% 45% / 0.3);
+    --shadow-warm: 0 10px 30px -10px hsl(75 35% 40% / 0.3);
     --shadow-elegant: 0 20px 40px -15px hsl(0 0% 0% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
@@ -155,7 +155,7 @@ All colors MUST be HSL.
   /* Custom Button Variants */
   .btn-samba {
     @apply bg-gradient-to-r from-primary to-ferrugem text-primary-foreground px-8 py-4 rounded-full font-medium tracking-wide transition-all duration-300 hover:scale-105;
-    box-shadow: 0 10px 30px -10px hsl(30 65% 55% / 0.2);
+    box-shadow: 0 10px 30px -10px hsl(75 35% 45% / 0.2);
   }
   
   .btn-samba:hover {
