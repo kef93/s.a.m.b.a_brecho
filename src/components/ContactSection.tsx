@@ -33,23 +33,23 @@ const ContactSection = () => {
   const contactInfo = [{
     icon: Mail,
     title: "E-mail",
-    content: "contato@sambabrechó.com.br",
-    link: "mailto:contato@sambabrechó.com.br"
+    content: "contato@sambabrecho.com.br",
+    link: "mailto:contato@sambabrecho.com.br"
   }, {
     icon: Phone,
     title: "WhatsApp",
-    content: "(11) 99999-9999",
+    content: "(48) 99999-9999",
     link: "https://wa.me/5511999999999"
   }, {
     icon: MapPin,
     title: "Localização",
-    content: "São Paulo, SP",
-    link: "#"
+    content: "Florianópolis, SC",
+    link: "Rua Anita Garibaldi 159 Centro, Florianópolis, Santa Catarina 88010500"
   }, {
     icon: Instagram,
     title: "Instagram",
-    content: "@sambabreu",
-    link: "https://instagram.com/sambabreu"
+    content: "@sambabrechocolaborativo",
+    link: "https://instagram.com/sambabrechocolaborativo"
   }];
   return <section id="contato" className="section-padding bg-gradient-subtle">
       <div className="container-samba">
