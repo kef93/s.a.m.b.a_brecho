@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { Quote } from 'lucide-react';
+import deboraAvatar from '../../assets/debora.jpg'; 
+import nataliaAvatar from '../../assets/natalia.jpg'; 
+import rosaneAvatar from '../../assets/rosane.jpg';
 
 const FoundersSection = () => {
   const [activeFounder, setActiveFounder] = useState(0);
@@ -11,7 +14,7 @@ const FoundersSection = () => {
       bio: "Apaixonada por peças clássicas que nunca saem de moda. Ana traz ao SAMBA o olhar refinado para vintage autêntico.",
       quote: "Cada peça vintage tem uma alma. Meu papel é encontrar essa alma e conectá-la com quem vai amá-la.",
       specialty: "Peças clássicas dos anos 70-90",
-      avatar: "debora.jpg"
+      avatar: "deboraAvatar"
     },
     {
       name: "Natalia",
@@ -19,7 +22,7 @@ const FoundersSection = () => {
       bio: "Designer de formação, Bia enxerga beleza na simplicidade e funcionalidade. Curadora das peças atemporais do SAMBA.",
       quote: "Menos é mais quando cada peça foi escolhida com propósito e cuidado.",
       specialty: "Básicos atemporais e peças funcionais",
-      avatar: "natalia.jpg"
+      avatar: "nataliaAvatar"
     },
     {
       name: "Rosane",
@@ -27,7 +30,7 @@ const FoundersSection = () => {
       bio: "Artista visual que vê na moda uma tela para expressão. Clara traz as peças mais criativas e ousadas para o SAMBA.",
       quote: "A moda é arte que vestimos. Cada look é uma oportunidade de contar nossa história.",
       specialty: "Peças criativas e estampas únicas",
-      avatar: "rosane.jpg"
+      avatar: "rosaneAvatar"
     }
   ];
 
