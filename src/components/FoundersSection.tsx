@@ -9,9 +9,9 @@ const FoundersSection = () => {
 
   const founders = [
     {
-      name: "Debora",
+      name: "Débora",
       style: "Vintage Elegante",
-      bio: "Apaixonada por peças clássicas que nunca saem de moda. Ana traz ao SAMBA o olhar refinado para vintage autêntico.",
+      bio: "Débora transforma sua paixão pelo vintage em curadoria única, escolhendo peças atemporais que unem simplicidade, funcionalidade e estilo para o S.A.M.B.A.",
       quote: "Cada peça vintage tem uma alma. Meu papel é encontrar essa alma e conectá-la com quem vai amá-la.",
       specialty: "Peças clássicas dos anos 70-90",
       avatar: "deboraAvatar"
@@ -27,7 +27,7 @@ const FoundersSection = () => {
     {
       name: "Rosane",
       style: "Artístico Contemporâneo",
-      bio: "Artista visual que vê na moda uma tela para expressão. Clara traz as peças mais criativas e ousadas para o SAMBA.",
+      bio: "Natalia é formada em Design de Moda e vê nas roupas um território de expressão, transformação e afeto. No S.A.M.B.A., atua com olhar criativo e autoral, trazendo peças de upcycling. Sua curadoria une ousadia e identidade, valorizando a liberdade de ser e vestir com propósito.",
       quote: "A moda é arte que vestimos. Cada look é uma oportunidade de contar nossa história.",
       specialty: "Peças criativas e estampas únicas",
       avatar: "rosaneAvatar"
