@@ -19,7 +19,7 @@ const FoundersSection = () => {
     {
       name: "Natalia",
       style: "Minimalista Urbano",
-      bio: "Designer de formação, Bia enxerga beleza na simplicidade e funcionalidade. Curadora das peças atemporais do SAMBA.",
+      bio: "Natalia é formada em Design de Moda e vê nas roupas um território de expressão, transformação e afeto. No S.A.M.B.A., atua com olhar criativo e autoral, trazendo peças de upcycling. Sua curadoria une ousadia e identidade, valorizando a liberdade de ser e vestir com propósito",
       quote: "Menos é mais quando cada peça foi escolhida com propósito e cuidado.",
       specialty: "Básicos atemporais e peças funcionais",
       avatar: "nataliaAvatar"
@@ -27,7 +27,7 @@ const FoundersSection = () => {
     {
       name: "Rosane",
       style: "Artístico Contemporâneo",
-      bio: "Natalia é formada em Design de Moda e vê nas roupas um território de expressão, transformação e afeto. No S.A.M.B.A., atua com olhar criativo e autoral, trazendo peças de upcycling. Sua curadoria une ousadia e identidade, valorizando a liberdade de ser e vestir com propósito.",
+      bio: "Apaixonada por peças clássicas que nunca saem de moda, Rosane traz ao S.A.M.B.A.,elegância atemporal e estilo único.",
       quote: "A moda é arte que vestimos. Cada look é uma oportunidade de contar nossa história.",
       specialty: "Peças criativas e estampas únicas",
       avatar: "rosaneAvatar"
