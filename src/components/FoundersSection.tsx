@@ -10,26 +10,26 @@ const FoundersSection = () => {
   const founders = [
     {
       name: "Débora",
-      style: "Vintage Elegante",
+      style: "Estilo",
       bio: "Débora transforma sua paixão pelo vintage em curadoria única, escolhendo peças atemporais que unem simplicidade, funcionalidade e estilo para o S.A.M.B.A.",
-      quote: "Cada peça vintage tem uma alma. Meu papel é encontrar essa alma e conectá-la com quem vai amá-la.",
-      specialty: "Peças clássicas dos anos 70-90",
+      quote: "Citação",
+      specialty: "Especialidade",
       avatar: "deboraAvatar"
     },
     {
       name: "Natalia",
-      style: "Minimalista Urbano",
+      style: "Estilo",
       bio: "Natalia é formada em Design de Moda e vê nas roupas um território de expressão, transformação e afeto. No S.A.M.B.A., atua com olhar criativo e autoral, trazendo peças de upcycling. Sua curadoria une ousadia e identidade, valorizando a liberdade de ser e vestir com propósito",
-      quote: "Menos é mais quando cada peça foi escolhida com propósito e cuidado.",
-      specialty: "Básicos atemporais e peças funcionais",
+      quote: "Citação",
+      specialty: "Especialidade",
       avatar: "nataliaAvatar"
     },
     {
       name: "Rosane",
-      style: "Artístico Contemporâneo",
+      style: "Estilo",
       bio: "Apaixonada por peças clássicas que nunca saem de moda, Rosane traz ao S.A.M.B.A.,elegância atemporal e estilo único.",
-      quote: "A moda é arte que vestimos. Cada look é uma oportunidade de contar nossa história.",
-      specialty: "Peças criativas e estampas únicas",
+      quote: "Citação",
+      specialty: "Especialidade",
       avatar: "rosaneAvatar"
     }
   ];
